@@ -19,7 +19,7 @@ Coleta de Dados: Utilizando o Scrapy, os dados foram coletados diretamente da bu
 
 2. Armazenamento: Após o tratamento, os dados foram armazenados em um banco de dados SQLite3, facilitando a consulta e manipulação.
 
-3. Visualização: Utilizando o Streamlit, foi desenvolvido um dashboard interativo que permite a visualização dos principais insights sobre os produtos coletados, como distribuições de preços, avaliações médias, entre outros.
+3. Visualização: Utilizando o Streamlit, foi desenvolvido um dashboard que permite a visualização dos principais insights sobre os produtos coletados, como distribuições de preços, avaliações médias, entre outros.
 
 ## Como Executar o Projeto
 
