@@ -1,8 +1,12 @@
 import streamlit as st
 import pandas as pd
 import sqlite3
+from pathlib import Path
 
-conn = sqlite3.connect('../data/quoes.db')
+base_dir = Path(__file__).resolve().parents[2]
+db_path = base_dir / 'data' / 'quoes.db'
+
+conn = sqlite3.connect(db_path)
 
 df = pd.read_sql_query("SELECT * FROM mercadolivre_items", conn)
 

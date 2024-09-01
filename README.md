@@ -33,22 +33,22 @@ Navegue até o diretório do projeto:
 
 Crie e ative o ambiente virtual venv:
 
-`python -m venv venv #Para criar`
+`python -m venv venv`
 
 
-`source .venv/bin/activate  #No Windows, para executar venv\Scripts\activate`
+`source .venv/bin/activate  #para executar no windows -> venv\Scripts\activate`
 
 Instale as dependências necessárias:
 
 `pip install -r requirements.txt`
 
-Execute o Scrapy para coletar os dados:
+Caso queira executar o scraping novamente e atualizar a base:
 
 `scrapy crawl mercadolivre`
 
 Inicie o Streamlit para visualizar o dashboard:
 
-`streamlit run src/dashboard/app.py`
+`streamlit run src/dashboard/dashboard.py`
 
 
 ### Contribuições
