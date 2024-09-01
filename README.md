@@ -36,13 +36,13 @@ Crie e ative o ambiente virtual venv:
 `python -m venv venv`
 
 
-`source .venv/bin/activate  #para executar no windows -> venv\Scripts\activate`
+`source .venv/bin/activate  #para executar no windows -> venv/Scripts/activate`
 
 Instale as dependências necessárias:
 
 `pip install -r requirements.txt`
 
-Caso queira executar o scraping novamente e atualizar a base:
+Caso queira executar o scraping novamente e atualizar a base (opcional):
 
 `scrapy crawl mercadolivre`
 
